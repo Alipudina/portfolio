@@ -21,7 +21,6 @@ class App extends Component {
     super(props);
     this.state={x: '', y: ''}
     this.onMouseMoveFunc=this.onMouseMoveFunc.bind(this);
-    this.onMouseOverFunc=this.onMouseOverFunc.bind(this);
   }
 
   onMouseMoveFunc(ev) {
@@ -29,13 +28,8 @@ class App extends Component {
     this.setState({x: ev.screenX, y: ev.screenY})
     eyeCircle.style.left= `${this.state.x/35}px`;
     eyeCircle.style.top= `${this.state.y/80}px`;
-    // console.log(eyeCircle.clientWidth);
   }
 
-  onMouseOverFunc(ev) {
-    const bigCircle= this.refs.firstCircle;
-    console.log(this.state.x);
-  }
 
   render() {
     return (
@@ -46,7 +40,7 @@ class App extends Component {
             <div className="work">
 
               <NavLink to="/">
-                <div className="some first-circle" onMouseOver={this.onMouseOverFunc} ref="firstCircle">
+                <div className="some first-circle" ref="firstCircle">
                   <div className="second-circle">
                     <div className="third-circle" ref="thirdCircle"></div>
                   </div>

@@ -23,8 +23,12 @@ export default class Home extends Component {
         </div>
 
         <div className="under-foto">
-          <h4>Looking for an Internship as Frontend developer</h4>
-          <p>Responsibility and respect are important to me.</p>
+          <h6>Looking for an <b>Internship</b> as Frontend developer</h6>
+          <p>Click on <b>EYE</b> to come to this Route again.</p>
+        </div>
+
+        <div className="responsive-description">
+          <p>In this portfolio is not concentrated on responsive mode.</p>
         </div>
       </div>
     );

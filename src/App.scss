@@ -107,6 +107,8 @@ div.home {
   background: #D89E4A;
   height: 100%;
   color: black;
+  // font-family: 'Pacifico', cursive;
+  // font-family: 'Dancing Script', cursive;
 }
 
 div.home * {
@@ -154,27 +156,16 @@ div.under-foto {
   text-align: center;
 }
 
-div.under-foto h4 {
+div.under-foto h6 {
   padding: 1vw 0;
 }
 
-
-.fade-enter{
-  opacity: 0;
-}
-
-.fade-enter-active{
-  opacity: 1;
-  animation: fadeInRight 1s ease-in;
-}
-
-.fade-exit{
-  opacity: 1;
-  animation: fadeOutRight 1s ease-out;
-}
-
-.fade-exit-active{
-  opacity: 0;
+div.responsive-description p {
+  width: 80%;
+  text-align: center;
+  padding: 2vw;
+  font-size: 1vw;
+  margin: 0 auto;
 }
 
 // contact.js ########################
@@ -286,11 +277,12 @@ div.third-project {
 
 // about.js ################################
 .card-block {
-  width: 90%;
-  margin: 0 auto;
+  width: 100%;
+  // margin: 0 auto;
   background: #17A2B8;
   color: white;
-  margin-top: -.6vw;
+  margin-top: .4vw;
+  border-radius: 0%;
 }
 
 .education {
