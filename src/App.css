@@ -192,7 +192,7 @@ div.contact-container div.data-container span.titel {
 }
 div.contact-container div.data-container p {
   font-weight: 100;
-  padding: 1vw 1vw 1vw 5vw;
+  padding-right: .5vw;
 }
 div.contact-container div.data-container p:hover {
   cursor: pointer;
