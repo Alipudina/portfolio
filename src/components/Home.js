@@ -17,7 +17,7 @@ export default class Home extends Component {
           </div>
           <div className="personal-details">
             <p>Age: 36</p>
-            <p>Status: Married</p>
+            <p>Marital Status: Married</p>
             <p>Nationality: Afghan</p>
           </div>
         </div>
