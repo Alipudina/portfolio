@@ -28,6 +28,16 @@ class App extends Component {
     this.setState({x: ev.screenX, y: ev.screenY})
     eyeCircle.style.left= `${this.state.x/35}px`;
     eyeCircle.style.top= `${this.state.y/80}px`;
+    // console.log(`left: ${eyeCircle.style.left}`);
+    // console.log(eyeCircle.style.top);
+    // console.log(ev.screenX);
+    //
+    // while (ev.screenX <133) {
+    //   console.log(555555);
+    //     eyeCircle.style.left= '1px';
+    //     eyeCircle.style.top='1px';
+    //   ev.screenX++;
+    // }
   }
 
 

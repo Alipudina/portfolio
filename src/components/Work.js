@@ -29,9 +29,13 @@ export default class Work extends Component {
 
       <div className="project-container third-project">
         <h6>Hamburg Weather Widget</h6>
-        <p>Using WEATHER API</p>
+        <p>
+          Tech: Html and advanced Css , Sass(variable, mixins, BEM methode),
+          Mediaquery(responsive for mobile, tablet etc)
+        </p>
+
           <li>
-            <a href="https://hamburg-weather.netlify.com/">Hamburg Weather Widget</a>
+            <a href="https://my-natours-project.netlify.com">NaTours project</a>
           </li>
       </div>
 

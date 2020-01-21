@@ -16,15 +16,15 @@ export default class Home extends Component {
             <img src={foto} alt="my foto"/>
           </div>
           <div className="personal-details">
-            <p>Age: 36</p>
+            <p>Age: 37</p>
             <p>Marital Status: Married</p>
             <p>Nationality: Afghan</p>
           </div>
         </div>
 
         <div className="under-foto">
-          <h6>Looking for an <b>Internship</b> as Frontend developer</h6>
-          <p>Click on <b>EYE</b> to come to this Route again.</p>
+          <h6>Open for any <b>Offer</b> as Frontend developer</h6>
+          <p>Click on <b>EYE</b> to come to this Route/home again.</p>
         </div>
 
         <div className="responsive-description">
