@@ -28,7 +28,7 @@ export default class Work extends Component {
       </div>
 
       <div className="project-container third-project">
-        <h6>Hamburg Weather Widget</h6>
+        <h6>NaTours project</h6>
         <p>
           Tech: Html and advanced Css , Sass(variable, mixins, BEM methode),
           Mediaquery(responsive for mobile, tablet etc)
