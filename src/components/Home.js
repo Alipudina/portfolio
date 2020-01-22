@@ -8,7 +8,7 @@ export default class Home extends Component {
       <div className="home">
         <div className="my-name">
           <h4>Ali Mohammad Pudina</h4>
-          <p>Frontend developer</p>
+          <p>Web developer</p>
         </div>
 
         <div className="main-foto-container">
