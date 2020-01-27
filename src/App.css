@@ -4,6 +4,7 @@
 
 body {
   background: #FC4B3D;
+  font-family: "Lato", sans-serif;
 }
 
 div.main-container {
@@ -106,57 +107,109 @@ div.home {
   height: 100%;
   color: black;
 }
-
 div.home * {
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-
-div.my-name {
-  height: 13vh;
+div.home div.my-name {
   padding-top: 2vw;
   text-align: center;
   font-size: 2vw;
 }
-
-div.my-name p {
+div.home div.my-name h4, div.home div.my-name h5 {
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  text-transform: uppercase;
+  transition: .2s;
+  margin: auto;
+}
+div.home div.my-name h4 {
+  width: 70%;
+  background-image: linear-gradient(to right, cyan, lime);
+}
+div.home div.my-name h4:hover {
+  transform: skewY(5deg);
+  text-shadow: 5px 10px 20px blue;
+}
+div.home div.my-name h5 {
+  width: 40%;
   font-size: 1.3vw;
   padding: 1vw 0;
+  background-image: linear-gradient(to right, red, blue);
 }
-
-div.main-foto-container {
-  padding: 2vw 0;
-  display: flex;
-  justify-content: space-around;
+div.home div.my-name h5:hover {
+  background-image: linear-gradient(to right, cyan, lime);
+  text-shadow: -10px 10px 10px rgba(0, 0, 255, 0.5);
 }
-
-div.foto-container {
+div.home div.main-foto-container {
+  position: relative;
+  height: 50%;
+  perspective: 1000px;
   width: 40%;
-  height: 30vh;
+  margin: 0 auto;
 }
-
-div.main-foto-container img {
+div.home div.main-foto-container .rotate-container,
+div.home div.main-foto-container .foto-container-front,
+div.home div.main-foto-container .foto-container-back {
   width: 100%;
   height: 100%;
 }
-
-div.personal-details p {
+div.home div.main-foto-container .rotate-container {
+  position: relative;
+  transform-style: preserve-3d;
+  transition: all .8s;
+  box-shadow: 0 0 10px yellow;
+}
+div.home div.main-foto-container .rotate-container .foto-container-front {
+  position: absolute;
+  backface-visibility: hidden;
+}
+div.home div.main-foto-container .rotate-container .foto-container-front img {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+}
+div.home div.main-foto-container .rotate-container .foto-container-back {
+  position: absolute;
+  background: cyan;
+  transform: rotateY(-180deg);
+  border-radius: 5px;
+  text-align: center;
+}
+div.home div.main-foto-container .rotate-container .foto-container-back p {
   padding: .6vw 0;
+  color: #D89E4A;
+}
+div.home div.main-foto-container .rotate-container .foto-container-back p:first-of-type {
+  padding-top: 2vw;
+}
+div.home div.main-foto-container:hover .rotate-container {
+  transform: rotateY(-180deg);
 }
 
 div.under-foto {
+  width: 80%;
   text-align: center;
+  margin: 1vw auto;
 }
-
+div.under-foto * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+div.under-foto h6, div.under-foto p {
+  background-image: linear-gradient(to right bottom, black, cyan);
+  background-clip: text;
+  color: transparent;
+  filter: brightness(60%);
+}
 div.under-foto h6 {
   padding: 1vw 0;
 }
-
-div.responsive-description p {
-  width: 80%;
-  text-align: center;
-  padding: 2vw;
-  font-size: 1vw;
-  margin: 0 auto;
+div.under-foto p {
+  padding: .6vw 0;
 }
 
 div.contact-details {

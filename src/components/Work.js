@@ -8,7 +8,7 @@ export default class Work extends Component {
     return (
       <>
       <div className="jumbotron contact-details">
-        <h3>Some Links of my work</h3>
+        <h3>Some Links of my projects</h3>
       </div>
 
       <div className="project-container first-project">
