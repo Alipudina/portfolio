@@ -43,7 +43,7 @@ export default class Work extends Component {
         <h6>Evernote Project</h6>
         <p>Team of three, using Html, Css</p>
           <li>
-            <a href="https://evernote.netlify.com/">EVERNOTE</a>
+            <a href="https://evernote.netlify.com">EVERNOTE</a>
           </li>
       </div>
       </>
