@@ -5,6 +5,7 @@ import Home from './components/Home';
 import Contact from './components/Contact';
 import Work from './components/Work';
 import About from './components/About';
+import ModalClass from './components/ModalComponent';
 // import {TransitionGroup, CSSTransition} from "react-transition-group";
 import { AnimatedSwitch } from 'react-router-transition';
 
@@ -18,10 +19,18 @@ import { AnimatedSwitch } from 'react-router-transition';
 class App extends Component {
   constructor(props) {
     super(props);
-    this.state={x: '', y: ''}
+    this.state={
+      x: '',
+      y: '',
+      showModal: true
+    }
     this.onMouseMoveFunc=this.onMouseMoveFunc.bind(this);
   }
 
+
+  // componentDidMount() {
+  //   this.setState({showModal: true})
+  // }
 
   onMouseMoveFunc(ev) {
     const eyeCircle= this.refs.thirdCircle;
@@ -70,6 +79,8 @@ class App extends Component {
               </div>
             </div>
           </div>
+
+          {this.state.showModal && <ModalClass />}
 
           <div className="middle-container">
             <Switch>

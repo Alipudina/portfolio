@@ -4,7 +4,7 @@
 
 body {
   background: #FC4B3D;
-  font-family: "Lato", sans-serif;
+  font-family: Arial;
 }
 
 div.main-container {
@@ -286,6 +286,8 @@ div.project-container li {
 }
 div.project-container li a {
   color: #FFC107;
+  position: relative;
+  z-index: 2;
 }
 
 div.first-project {
@@ -320,6 +322,15 @@ div.third-project {
 
 .language-skills {
   background: #6C757D;
+}
+
+.modal-main {
+  backdrop-filter: blur(8px);
+}
+.modal-main .modal-header {
+  background: lime;
+  color: red;
+  text-transform: uppercase;
 }
 
 /* // @keyframes App-logo-spin {
