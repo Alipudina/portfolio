@@ -81,7 +81,7 @@ div.second-circle {
   left: 1.5vw;
 }
 
-div.third-circle {
+.third-circle, .third-circle-red {
   height: 2vw;
   background: #312A2C;
   border-radius: 60%;
@@ -89,6 +89,13 @@ div.third-circle {
   position: absolute;
   top: .5vw;
   left: 1.5vw;
+}
+
+.third-circle-red {
+  opacity: 0;
+  background: #c4192d;
+  box-shadow: 0 0 10px yellow;
+  transition: all .7s;
 }
 
 .three-links {

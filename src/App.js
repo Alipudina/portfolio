@@ -23,11 +23,31 @@ class App extends Component {
     this.onMouseMoveFunc=this.onMouseMoveFunc.bind(this);
   }
 
+
   onMouseMoveFunc(ev) {
     const eyeCircle= this.refs.thirdCircle;
+    const redEyeCircle= this.refs.thirdCircleRed;
     this.setState({x: ev.screenX, y: ev.screenY})
     eyeCircle.style.left= `${this.state.x/35}px`;
     eyeCircle.style.top= `${this.state.y/80}px`;
+
+    let x=this.state.x;
+    let y=this.state.y;
+
+    if (x<350 && y<250) {
+      console.log(`y is ${y}`);
+      console.log(`x is ${x}`);
+
+      console.log('x is smaller than 350');
+      redEyeCircle.style.opacity='1';
+      eyeCircle.style.transition = "all .7s";
+      eyeCircle.style.opacity='0';
+    } else {
+      redEyeCircle.style.opacity='0';
+      eyeCircle.style.transition = "all 0s";
+      eyeCircle.style.opacity='1';
+    }
+
   }
 
 
@@ -43,6 +63,7 @@ class App extends Component {
                 <div className="some first-circle" ref="firstCircle">
                   <div className="second-circle">
                     <div className="third-circle" ref="thirdCircle"></div>
+                    <div className="third-circle-red" ref="thirdCircleRed"></div>
                   </div>
                 </div>
               </NavLink>
