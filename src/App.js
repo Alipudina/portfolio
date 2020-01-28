@@ -35,10 +35,6 @@ class App extends Component {
     let y=this.state.y;
 
     if (x<350 && y<250) {
-      console.log(`y is ${y}`);
-      console.log(`x is ${x}`);
-
-      console.log('x is smaller than 350');
       redEyeCircle.style.opacity='1';
       eyeCircle.style.transition = "all .7s";
       eyeCircle.style.opacity='0';
