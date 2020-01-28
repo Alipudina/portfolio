@@ -4,7 +4,7 @@
 
 body {
   background: #FC4B3D;
-  font-family: "Lato", sans-serif;
+  font-family: Arial;
 }
 
 div.main-container {
@@ -329,6 +329,8 @@ div.project-container {
 
     a {
       color: #FFC107;
+      position: relative;
+      z-index: 2;
     }
   }
 }
@@ -369,7 +371,16 @@ div.third-project {
   background: #6C757D;
 }
 
+// ModalComponent ##########################
+.modal-main {
+  backdrop-filter: blur(8px);
 
+  .modal-header {
+    background: lime;
+    color: red;
+    text-transform: uppercase;
+  }
+}
 
 
 /* // @keyframes App-logo-spin {
