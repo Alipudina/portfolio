@@ -3,7 +3,6 @@ import './App.scss';
 import { BrowserRouter, Route, Switch, NavLink } from 'react-router-dom';
 import Home from './components/Home';
 import Contact from './components/Contact';
-import Mistake from './components/Mistake';
 import Work from './components/Work';
 import About from './components/About';
 // import {TransitionGroup, CSSTransition} from "react-transition-group";
@@ -88,7 +87,6 @@ class App extends Component {
 
               <Route path="/about" component={About} />
               <Route path="/contact" component={Contact} />
-              <Route path="/mistake" component={Mistake} />
 
             </AnimatedSwitch>
 
