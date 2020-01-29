@@ -2,17 +2,6 @@ import React, { Component} from 'react';
 import '../App.scss';
 import { Modal, Button, ButtonToolbar } from 'react-bootstrap';
 
-// export default class ModalClass extends Component {
-//
-//   render() {
-//     return (
-//       <>
-//       <h3>this is modal</h3>
-//       </>
-//     )
-//   }
-// }
-
 
 class MyVerticallyCenteredModal extends Component {
   render() {
@@ -28,7 +17,7 @@ class MyVerticallyCenteredModal extends Component {
             just for laptop screen!
           </Modal.Title>
         </Modal.Header>
-        <Modal.Body>
+        <Modal.Body className='modal-body'>
           <h4>NOTE:</h4>
           <p>
             The code for this project is written just for laptop screen
@@ -39,7 +28,7 @@ class MyVerticallyCenteredModal extends Component {
             Thanks for your interesting and visiting my Projects.
           </p>
         </Modal.Body>
-        <Modal.Footer>
+        <Modal.Footer className='modal-footer'>
           <Button onClick={this.props.onHide}>Close</Button>
         </Modal.Footer>
       </Modal>

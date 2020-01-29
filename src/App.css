@@ -326,11 +326,17 @@ div.third-project {
 
 .modal-main {
   backdrop-filter: blur(8px);
+  color: white;
 }
 .modal-main .modal-header {
-  background: lime;
-  color: red;
+  background: #60b28c;
   text-transform: uppercase;
+}
+.modal-main .modal-body {
+  background: #60b28c;
+}
+.modal-main .modal-footer {
+  background: #60b28c;
 }
 
 /* // @keyframes App-logo-spin {

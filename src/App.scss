@@ -374,11 +374,19 @@ div.third-project {
 // ModalComponent ##########################
 .modal-main {
   backdrop-filter: blur(8px);
+  color: white;
 
   .modal-header {
-    background: lime;
-    color: red;
+    background: #60b28c;
     text-transform: uppercase;
+  }
+
+  .modal-body {
+    background: #60b28c;
+  }
+
+  .modal-footer {
+    background: #60b28c;
   }
 }
 
