@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import '../App.scss';
-import darya from '../images/lifeguard.jpg';
 // import {TransitionGroup, CSSTransition} from "react-transition-group";
 
 export default class Work extends Component {
@@ -13,15 +12,15 @@ export default class Work extends Component {
 
       <div className="project-container first-project">
         <h6>E-Shop</h6>
-        <p>Using Html, Sass and Javascript, React-app, Router, Redux, Bootstrap (Invidual-project)</p>
+        <p>Using Html, Sass and Javascript, React-app, Router, Redux, Bootstrap</p>
         <li>
-          <a href="https://pizza-shop.netlify.com/">Pizza Shop</a>
+          <a href="https://e-shop-ali.netlify.com">Pizza Shop</a>
         </li>
       </div>
 
       <div className="project-container second-project">
         <h6>Teppisch Wäscherei</h6>
-        <p>Pair working, using Html, Sass and Javascript</p>
+        <p>Using Html, Sass and Javascript</p>
           <li>
             <a href="http://unique-waescherei.de/">unique-waescherei.de</a>
           </li>
@@ -41,7 +40,7 @@ export default class Work extends Component {
 
       <div className="project-container last-project">
         <h6>Evernote Project</h6>
-        <p>Team of three, using Html, Css</p>
+        <p>Using Html, Css</p>
           <li>
             <a href="https://evernote.netlify.com">EVERNOTE</a>
           </li>

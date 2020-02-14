@@ -26,11 +26,7 @@ class App extends Component {
     }
     this.onMouseMoveFunc=this.onMouseMoveFunc.bind(this);
   }
-
-
-  // componentDidMount() {
-  //   this.setState({showModal: true})
-  // }
+  
 
   onMouseMoveFunc(ev) {
     const eyeCircle= this.refs.thirdCircle;

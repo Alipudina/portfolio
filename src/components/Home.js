@@ -19,10 +19,10 @@ export default class Home extends Component {
               </div>
 
               <div className="foto-container-back">
-                <p>Age: 37</p>
-                <p>Nationality: Afghan</p>
+                <p>Web developer</p>
+                <p>Self learner</p>
                 <p>English level: B2</p>
-                <p>German level: B1</p>
+                <p>German level: B2</p>
                 <p>Driving licence: Class B</p>
               </div>
             </div>
