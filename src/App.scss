@@ -314,13 +314,12 @@ div.contact-details { //used in contact.js too
 }
 
 div.project-container {
-  // border: 1px solid red;
-  margin-bottom: .2vw;
+  margin-bottom: .5vw;
   text-align: center;
   color: white;
 
   h6 {
-    padding-top: .5vw;
+    padding-top: .7vw;
   }
 
   p {
@@ -364,6 +363,7 @@ div.third-project {
   color: white;
   margin-top: .4vw;
   border-radius: 0%;
+  margin-bottom: 1vw;
 }
 
 .education {

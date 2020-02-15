@@ -273,12 +273,12 @@ div.mistake-container {
 }
 
 div.project-container {
-  margin-bottom: .2vw;
+  margin-bottom: .5vw;
   text-align: center;
   color: white;
 }
 div.project-container h6 {
-  padding-top: .5vw;
+  padding-top: .7vw;
 }
 div.project-container p {
   margin-bottom: 8px;
@@ -316,6 +316,7 @@ div.third-project {
   color: white;
   margin-top: .4vw;
   border-radius: 0%;
+  margin-bottom: 1vw;
 }
 
 .education {

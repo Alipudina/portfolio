@@ -15,7 +15,7 @@ export default class About extends Component {
             <Card.Title>Education</Card.Title>
             <Card.Text>
               Digital Career Institute Hamburg<br />
-              1-year intensive course in Full Stack Web Developing
+              Intensive course in Full Stack Web Developing
             </Card.Text>
 
             <Card.Text>
@@ -27,14 +27,14 @@ export default class About extends Component {
         <Card className="card-block language-skills">
           <Card.Body>
             <Card.Title>LANGUAGE SKILLS</Card.Title>
-            <Card.Text>FARSI-mother tongue, &nbsp; ENGLISH, &nbsp; GERMAN B1</Card.Text>
+            <Card.Text>FARSI-mother tongue, &nbsp; ENGLISH B2, &nbsp; GERMAN B2</Card.Text>
           </Card.Body>
         </Card>
 
         <Card className="card-block">
           <Card.Body>
             <Card.Title>EXPERIENCE</Card.Title>
-            <Card.Text>Some pair and invidual project that i put them in <b>WORK</b> and more</Card.Text>
+            <Card.Text>Some of my projects that you can see them in <b>WORK</b> and more</Card.Text>
           </Card.Body>
         </Card>
       </>

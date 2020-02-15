@@ -24,6 +24,7 @@ export default class Home extends Component {
                 <p>English level: B2</p>
                 <p>German level: B2</p>
                 <p>Driving licence: Class B</p>
+                <p>Always ready to learn</p>
               </div>
             </div>
 
