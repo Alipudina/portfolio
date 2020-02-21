@@ -153,6 +153,7 @@ div.home div.my-name h5:hover {
 div.home div.main-foto-container {
   position: relative;
   height: 50%;
+  -moz-perspective: 1000px;
   perspective: 1000px;
   width: 40%;
   margin: 0 auto;
@@ -165,17 +166,19 @@ div.home div.main-foto-container .foto-container-back {
 }
 div.home div.main-foto-container .rotate-container {
   position: relative;
+  -moz-transform-style: preserve-3d;
   transform-style: preserve-3d;
   transition: all .8s;
   box-shadow: 0 0 10px yellow;
 }
 div.home div.main-foto-container .rotate-container .foto-container-front {
   position: absolute;
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
   backface-visibility: hidden;
-}
-div.home div.main-foto-container .rotate-container .foto-container-front img {
-  width: 100%;
-  height: 100%;
+  background-image: url(images/myfoto.jpeg);
+  background-size: cover;
+  z-index: 5;
   border-radius: 5px;
 }
 div.home div.main-foto-container .rotate-container .foto-container-back {

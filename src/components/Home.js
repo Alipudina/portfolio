@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import '../App.css';
-import foto from '../images/myfoto.jpeg';
+// import foto from '../images/myfoto.jpeg';
+// <img src={foto} alt="my foto"/>
 
 export default class Home extends Component {
   render() {
@@ -15,7 +16,7 @@ export default class Home extends Component {
 
             <div className="rotate-container">
               <div className="foto-container-front">
-                <img src={foto} alt="my foto"/>
+                
               </div>
 
               <div className="foto-container-back">
