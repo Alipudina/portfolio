@@ -11,10 +11,10 @@ export default class Work extends Component {
       </div>
 
       <div className="project-container first-project">
-        <h6>E-Shop</h6>
-        <p>Using Html, Sass and Javascript, React-app, Router, Redux, Bootstrap</p>
+        <h6>Pizza Shop</h6>
+        <p>Using Html, Css/Sass, Javascript, React, React-Router and Redux</p>
         <li>
-          <a href="https://e-shop-ali.netlify.com">Pizza Shop</a>
+          <a href="https://pizza-shop.netlify.app">Pizza Shop</a>
         </li>
       </div>
 
@@ -39,10 +39,10 @@ export default class Work extends Component {
       </div>
 
       <div className="project-container last-project">
-        <h6>Evernote Project</h6>
-        <p>Using Html, Css</p>
+        <h6>Multiplication App</h6>
+        <p>Using Html, Css/SASS, Javascript (Responsive for mobile etc)</p>
           <li>
-            <a href="https://evernote.netlify.com">EVERNOTE</a>
+            <a href="https://math-multiplication.netlify.com">Multiplication App</a>
           </li>
       </div>
       </>

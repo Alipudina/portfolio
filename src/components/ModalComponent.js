@@ -20,11 +20,11 @@ class MyVerticallyCenteredModal extends Component {
         <Modal.Body className='modal-body'>
           <h4>NOTE:</h4>
           <p>
-            The code for this project is written just for laptop screen
+            The code in this project is written just for laptop screen
             and it is not responsive to other devices.
             If you want to see a responsive design please check
-            the <b>NaTours</b> project in <b>Work</b> button.
-            There you can find some of my projects.
+            the <b>Projects in my Lebenslauf</b>. Here in <b>Work</b> button
+            you can find some other projects.
             Thanks for your interesting and visiting my Projects.
           </p>
         </Modal.Body>
